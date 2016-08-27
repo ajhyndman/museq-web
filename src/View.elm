@@ -9,10 +9,10 @@ view model =
     Html.div
         []
         [ Html.button
-            [ Html.Events.onClick Update.Decrement ]
+            [ Html.Events.onClick Decrement ]
             [ Html.text "Decrement" ]
         , Html.text (toString model.value)
         , Html.button
-            [ Html.Events.onClick Update.Increment ]
+            [ Html.Events.onClick Increment ]
             [ Html.text "Increment" ]
         ]
