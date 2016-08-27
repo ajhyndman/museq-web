@@ -1,0 +1,31 @@
+{
+  "name": "tiny-elm",
+  "version": "1.0.0",
+  "description": "A minimal elm frontend starter kit",
+  "scripts": {
+    "build": "elm-make src/app.elm --output=index.html",
+    "server": "serv",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ajhyndman/tiny-elm-starter.git"
+  },
+  "keywords": [
+    "elm",
+    "npm",
+    "boilerplate",
+    "minimal",
+    "frontend"
+  ],
+  "author": "Andrew Hyndman <ajhyndman@hotmail.com> (https://github.com/ajhyndman)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ajhyndman/tiny-elm-starter/issues"
+  },
+  "homepage": "https://github.com/ajhyndman/tiny-elm-starter#readme",
+  "devDependencies": {
+    "elm": "^0.17.0",
+    "serv": "^0.2.4"
+  }
+}
