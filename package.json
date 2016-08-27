@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A minimal elm frontend starter kit",
   "scripts": {
-    "build": "elm-make src/app.elm --output=index.html",
+    "build": "elm-make src/App.elm --output=index.html",
     "server": "serv",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
