@@ -3,14 +3,14 @@ module Model exposing (model, Model)
 
 type alias Model =
     { value : Int
-    --, valuetwo : Int -- Remove two dashes at beginning 
+    , valuetwo : Int -- Remove two dashes at beginning
     {-- I am assuming I have done something wrong with syntax/structure --}
     }
 
 
 model : Model
-model = 
+model =
     { value = 0
-    --, valuetwo = 0 -- Remove two dashes at beginning 
+    , valuetwo = 0 -- Remove two dashes at beginning
     {-- I am assuming I have done something wrong with syntax/structure --}
     }

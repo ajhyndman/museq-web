@@ -19,8 +19,7 @@ view model =
         , Html.button
             [ Html.Events.onClick DownBy2 ]
             [ Html.text "Down By 2" ]
-        , Html.text (toString model.value)
-        {-- At the moment, I am using 'value', but I want to use 'valuetwo' instead --}
+        , Html.text (toString model.valuetwo)
         , Html.button
             [ Html.Events.onClick UpBy2 ]
             [ Html.text "Up By 2" ]
